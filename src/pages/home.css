@@ -1,0 +1,36 @@
+.prd-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.prd-list .prd-item {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.prd-list .prd-item .prd-img {
+    width: 30rem;
+    height: 30rem;
+    background-color: #8FBC94;
+    position: relative;
+}
+
+.prd-list .prd-item .prd-img .prd-content {
+    width: 20rem;
+    height: 10rem;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.2);
+    margin: 1rem;
+    position: absolute;
+    top: 5rem;
+    left: -20rem;
+    background-color: #fff;
+    border-radius:  4px/ 4px;
+    padding: 1rem;
+}
+
+.prd-list .prd-item .prd-img .prd-content .prd-discription {
+    height: 5rem;
+}
+
+

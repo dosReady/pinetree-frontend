@@ -1,0 +1,25 @@
+.page-container {
+    height: inherit;
+}
+
+.page-container header {
+    height: 4rem;
+    margin: 1.5rem 30%;
+    display: flex;
+}
+
+.page-container header h1 {
+    margin: 1rem!important;
+}
+.page-container header .menu-wrap {
+    margin: 1.35rem 0rem 1rem;
+}
+
+.page-container header .menu-wrap a {
+    margin-right: 1rem;
+}
+
+.page-container .content {
+    height: calc(100% - 4rem);
+    margin: 1.5rem 17%;
+}
