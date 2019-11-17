@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import Home from './home';
 import Detail from './detail';
 import List from './list';
@@ -11,11 +11,12 @@ class Main extends React.Component {
             <Router>
             <div className="page-container">
                 <header>
-                    <h1>PINE TREE</h1>
-                    <div className="menu-wrap">
-                        <Link to="/product">작품사진</Link>
-                        <Link to="/contact">연락하기</Link>
-                    </div>
+                    <nav>
+                        <h1>PINE TREE</h1>
+                        <div className="menu-wrap">
+                            {/*  <Link to="/contact">연락하기</Link> */}
+                        </div>
+                    </nav>
                 </header>
                 <section className="content">
                         <Switch>

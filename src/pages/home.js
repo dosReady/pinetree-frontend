@@ -1,39 +1,68 @@
 import React from 'react';
 import './home.css';
-import { Link } from "react-router-dom";
 class Home extends React.Component {
     render() {
         return (
-            <div>
-                <div className="prd-list">
-                    <div className="prd-item">
-                        <div className="prd-img">
-                            <div className="prd-content">
-                                <div className="prd-title"><h1>제목</h1></div>
-                                <div className="prd-discription"><Link to="/product/detail">Spider Man</Link></div>
-                                <div className="prd-cnt"> 1000 viewer</div>
-                            </div>
+            <div className="page">
+                {/* prd-wrap start */}
+                <div className="prd-bast-wrap">
+                    <div className="list">
+                        <div className="item1">
+                            <div>작품 1</div>
                         </div>
-                    </div>
-                    <div className="prd-item">
-                        <div className="prd-img">
-                            <div className="prd-content">
-                                <div className="prd-title"><h1>제목</h1></div>
-                                <div className="prd-discription">설명</div>
-                                <div className="prd-cnt"> 1000 viewer</div>
-                            </div>
+
+                        <div className="item2">
+                            <div>작품 2</div>
                         </div>
-                    </div>
-                    <div className="prd-item">
-                        <div className="prd-img">
-                            <div className="prd-content">
-                                <div className="prd-title"><h1>제목</h1></div>
-                                <div className="prd-discription">설명</div>
-                                <div className="prd-cnt"> 1000 viewer</div>
-                            </div>
+
+                        <div className="item3">
+                            <div>작품 3</div>
+                        </div>
+
+                        <div className="item4">
+                            <div>작품 4</div>
                         </div>
                     </div>
                 </div>
+                {/* prd-wrap end */}
+
+                {/* prd-wrap start */}
+                <div className="prd-wrap">
+                    <div className="list">
+                        <div className="item">
+                            <div>작품 1</div>
+                        </div>
+
+                        <div className="item">
+                            <div>작품 2</div>
+                        </div>
+
+                        <div className="item">
+                            <div>작품 3</div>
+                        </div>
+
+                        <div className="item">
+                            <div>작품 4</div>
+                        </div>
+
+                        <div className="item">
+                            <div>작품 5</div>
+                        </div>
+                        <div className="item">
+                            <div>작품 6</div>
+                        </div>
+                        <div className="item">
+                            <div>작품 7</div>
+                        </div>
+                        <div className="item">
+                            <div>작품 8</div>
+                        </div>
+                        <div className="item">
+                            <div>작품 9</div>
+                        </div>
+                    </div>
+                </div>
+                  {/* prd-wrap end */}
             </div>
         )
     }
