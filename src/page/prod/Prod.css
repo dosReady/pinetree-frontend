@@ -1,0 +1,53 @@
+
+/*********************
+*       제품 목록      *
+**********************/
+.prod-list-wrap {
+    height: inherit;
+    margin: 5rem 13.13rem;
+}
+
+.prod-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+
+.prod-item {
+    width: calc((100% - 7rem) / 4);
+    height: 25rem;
+    margin: .875rem;
+}
+
+.prod-img {
+    width: 100%;
+    height: calc(100% - 5rem);
+    background-color: lavender;
+}
+
+.prod-content {
+    height: 5rem;
+    background-color: #fff;
+    box-shadow: 0 -4px 16px rgba(0,0,0,.05);
+}
+
+/*********************
+*    제품 상세보기      *
+**********************/
+
+.prod-detail-wrap {
+    height: inherit;
+}
+
+.prod-detail-img {
+    width: 100%;
+    height: 30rem;
+    background-color: lavender;
+}
+
+.prod-detail-content {
+    height: 70%;
+    margin: 0 20rem;
+    padding: 5rem;
+}

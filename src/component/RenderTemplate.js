@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import ProdList from '../page/ProdList';
-import ProdDetail from '../page/ProdDetail';
+import ProdList from '../page/prod/ProdList';
+import ProdDetail from '../page/prod/ProdDetail';
 
 class RenderTemplate extends React.Component {
     render() {
