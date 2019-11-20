@@ -1,36 +1,18 @@
 import React from 'react';
-import CodeMirror from 'react-codemirror';
-import 'codemirror/mode/markdown/markdown';
-import 'codemirror/lib/codemirror.css'
+import CodeMirrorRender from '../../component/CodeMirrorRender';
+import MarkDownPreviewRender from '../../component/MarkDownPreviewRender';
 class ProdMng extends React.Component {
-   
     constructor() {
-        super();
-        this.state = {
-            code: '# Heading\n\nSome **bold** and _italic_ text\nBy [Jed Watson](https://github.com/JedWatson)',
-            readOnly: false,
-            mode: 'markdown'
-        } 
+        super()
 
-        this.updateCode = this.updateCode.bind(this);
-
-       
-    }
-    updateCode = (newCode) => {
-        this.setState({
-            code: newCode
-        });
+        this.editor = React.createRef();
     }
 
     render() {
-        let options = {
-            lineNumbers: true,
-			//readOnly: this.state.readOnly,
-			mode: this.state.mode
-        }
         return (
             <div>
-                <CodeMirror ref="editor" value={this.state.code} onChange={this.updateCode} options={options} />    
+                <CodeMirrorRender ref={this.editor}/>
+                <MarkDownPreviewRender value="#test"/>
             </div>
         )
     }
