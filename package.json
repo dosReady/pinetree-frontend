@@ -5,7 +5,7 @@
   "dependencies": {
     "codemirror": "^5.49.2",
     "immutable": "^4.0.0-rc.12",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-redux": "^7.1.3",
